@@ -2,7 +2,7 @@
 
 * Студент: [Дмитрий Иващенко](https://up.htmlacademy.ru/htmlcss-individual/2/user/2539065).
 * Наставник: [Павел Позняк](https://htmlacademy.ru/profile/id907403).
-
+* Сайт: [Проект Седона](https://ivadi0.github.io/2539065-sedona-2/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>

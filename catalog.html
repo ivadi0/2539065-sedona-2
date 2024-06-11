@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Academy: Седона</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a class="header-logo-link" href="index.html"><img src="#" alt="Логотип" class="header-logo"></a>
+      <nav class="navigation-wrapper">
+        <ul class="navigation-list">
+          <li class="navigation-item"><a class="navigation-link" href="#">Главная</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#">О Седоне</a></li>
+          <li class="navigation-item"><a class="catalog.html" href="#">Гостинницы</a></li>
+        </ul>
+      </nav>
+      <div class="header-menu">
+        <a class="button" href="#"><span class="visually-hidden">Поиск</span></a>
+        <a class="button" href="#"><span class="visually-hidden">Избранное</span></a>
+        <a class="button button-brown" href="#">Хочу сюда</a>
+      </div>
+    </header>
+    <main>
+      <section class="hero-catalog">
+        <h1 class="title-hero-catalog">Гостинницы Седоны</h1>
+        <a href="index.html"><img src="#" alt="Домой"></a>
+        <p class="catalog-text">Гостиницы</p>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Инфраструктура:</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="бассейн">
+
+                  Бассейн
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="парковка">
+
+                  Парковка
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="WI-FI">
+
+                  WI-FI
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Тип Жилья:</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="product-group">
+
+                  Гостиница
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="product-group">
+
+                  Мотель
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="radio" name="product-group">
+
+                  Апартаменты
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="catalog-filter-price">
+            <legend catalog-filter-price-title>Стоимость, ₽:</legend>
+            <input type="text" name="price-from" value="0">
+            <input type="text" name="price-to" value="9000">
+            <button class="catalog-submit-button">Применить</button>
+            <button class="catalog-reset-button">Сбросить</button>
+          </fieldset>
+        </form>
+      </section>
+      <section class="product">
+        <h2 class="product-title">Найдено гостиниц: 38</h2>
+        <select class="select-control" aria-label="Сортировка">
+          <option value="cheap">Сначала дешёвые</option>
+          <option value="expensive">Сначала дорогие</option>
+          <option value="popular">Сначала популярные</option>
+        </select>
+        <div>
+          <button class="product-sorting-button" aria-label="плитка"></button>
+          <button class="product-sorting-button" aria-label="одна карточка"></button>
+          <button class="product-sorting-button" aria-label="список"></button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="footer-contacts">
+        <div>
+          <a class="social=network" href="https://vk.com/htmlacademy?from=search">
+            <img src="#" alt="ВКонтакте">
+          </a>
+          <a class="social-network" href="https://t.me/htmlacademy">
+            <img src="#" alt="Телеграмм">
+          </a>
+          <a class="social-network" href="https://www.youtube.com/@HTMLAcademyTV">
+            <img src="#" alt="Ютуб">
+          </a>
+        </div>
+        <a class="call-number" href="78128121212">+7 (812) 812-12-12</a>
+        <a class="footer-logo" href="/">
+          <img src="#" alt="Логотип html academy">
+        </a>
+      </section>
+    </footer>
+  </body>
+
+</html>

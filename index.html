@@ -8,55 +8,52 @@
 
   <body>
     <header class="header">
-      <img src="#" alt="Логотип" class="header-logo">
+      <a class="header-logo-link" href="index.html"><img src="#" alt="Логотип" class="header-logo"></a>
       <nav class="navigation-wrapper">
         <ul class="navigation-list">
-          <li class="navigation-item"><a href="#" class="navigation-link">Главная</a></li>
-          <li class="navigation-item"><a href="#" class="navigation-link">О Седоне</a></li>
-          <li class="navigation-item"><a href="#" class="navigation-link">Гостинницы</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#">Главная</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="#">О Седоне</a></li>
+          <li class="navigation-item"><a class="catalog.html" href="#">Гостинницы</a></li>
         </ul>
       </nav>
       <div class="header-menu">
-        <button class="button"><span class="visually-hidden">Поиск</span></button>
-        <button class="button"><span class="visually-hidden">Избранное</span></button>
-        <button class="button button-brown">Хочу сюда</button>
+        <a class="button" href="#"><span class="visually-hidden">Поиск</span></a>
+        <a class="button" href="#"><span class="visually-hidden">Избранное</span></a>
+        <a class="button button-brown" href="#">Хочу сюда</a>
       </div>
     </header>
     <main>
       <section class="hero">
         <img src="#" alt="Добро пожаловать в Седону" class="hero-img">
+      </section>
+      <section class="main-description">
         <h1 class="hero-title">Седона — небольшой городок в Аризоне,
           заслуживающий большего!</h1>
         <p class="hero-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
-      </section>
-      <section class="main-description">
-        <div class="description-block-up">
-          <div class="main-description-item main-description-item-dark">
+        <ul class="main-description-list">
+          <li class="main-description-item main-description-item-dark">
             <h3 class="main-item-title">Настоящиий городок</h3>
             <p class="main-item-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-          </div>
-        </div>
-        <div class="main-description-block-centr">
-          <div class="main-description-item">
+          <img src="#" alt="Настоящий городок">
+          </li>
+          <li class="main-description-item">
             <h3 class="main-item-title">Небольшая площадь</h3>
             <p class="main-item-text">Все достопримечательности находятся очень близко</p>
-          </div>
-          <div class="main-description-item main-description-item-light">
+          </li>
+          <li class="main-description-item main-description-item-light">
             <h3 class="main-item-title">Красивый городок</h3>
             <p class="main-item-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-          </div>
-          <div class="main-description-item">
+          </li>
+          <li class="main-description-item">
             <h3 class="main-item-title">Мало туристов</h3>
             <p class="main-item-text">Большинство едет в Гранд Каньон и толпится там</p>
-          </div>
-
-        </div>
-        <div class="main-description-block-down">
-          <div class="main-description-item main-description-item-dark">
+          </li>
+          <li class="main-description-item main-description-item-dark">
+            <img src="#" alt="Мост дьявола">
             <h3 class="main-item-title">Там есть мост дьявола</h3>
             <p class="main-item-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
       <section class="invitation">
         <h2 class="invitation-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
@@ -87,24 +84,32 @@
           Седоне</p>
         <button class="button button-wide button-brown">ПОИСК ГОСТИНИЦЫ В седоне</button>
       </section>
+      <section class="form-mailing">
+        <h2 class="footer-mailing-title">Подпишитесь на рассылку</h2>
+        <p class="footer-mailing-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="input-wraper">
+          <input type="email" placeholder="Ваш e-mail" class="footer-input">
+          <button class="button button-wide button-blue">Подписаться</button>
+        </form>
+      </section>
     </main>
     <footer class="footer">
-      <section class="footer-mailing">
-      <h2 class="footer-mailing-title">Подпишитесь на рассылку</h2>
-      <p class="footer-mailing-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <div class="input-wraper">
-        <input type="email" placeholder="Ваш e-mail" class="footer-input">
-        <button class="button button-wide button-blue">Подписаться</button>
-      </div>
-      </section>
       <section class="footer-contacts">
         <div>
-          <a href="https://vk.com/htmlacademy?from=search"><img src="#" alt="ВКонтакте" class="social=network"></a>
-          <a href="https://t.me/htmlacademy"><img src="#" alt="Телеграмм" class="social-network"></a>
-          <a href="https://www.youtube.com/@HTMLAcademyTV"><img src="#" alt="Ютуб" class="social-network"></a>
+          <a class="social=network" href="https://vk.com/htmlacademy?from=search">
+            <img src="#" alt="ВКонтакте">
+          </a>
+          <a class="social-network" href="https://t.me/htmlacademy">
+            <img src="#" alt="Телеграмм">
+          </a>
+          <a class="social-network" href="https://www.youtube.com/@HTMLAcademyTV">
+            <img src="#" alt="Ютуб">
+          </a>
         </div>
-      <a class="call-number" href="/">+7 (812) 812-12-12</a>
-      <a class="footer-logo" href="/"><img src="#" alt="Логотип html academy"></a>
+        <a class="call-number" href="78128121212">+7 (812) 812-12-12</a>
+        <a class="footer-logo" href="/">
+          <img src="#" alt="Логотип html academy">
+        </a>
       </section>
     </footer>
   </body>

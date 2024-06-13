@@ -8,7 +8,7 @@
 
   <body>
     <header class="header">
-      <a class="header-logo-link" href="index.html"><img src="#" alt="Логотип" class="header-logo"></a>
+      <a class="header-logo-link" href="index.html"><img src="./imgs/logo-sedona.svg" alt="Логотип" class="header-logo"></a>
       <nav class="navigation-wrapper">
         <ul class="navigation-list">
           <li class="navigation-item"><a class="navigation-link" href="#">Главная</a></li>
@@ -24,7 +24,8 @@
     </header>
     <main>
       <section class="hero">
-        <img src="#" alt="Добро пожаловать в Седону" class="hero-img">
+
+        <img src="./imgs/welcome-to-sedona.svg" alt="Добро пожаловать в Седону" class="hero-img">
       </section>
       <section class="main-description">
         <h1 class="hero-title">Седона — небольшой городок в Аризоне,
@@ -34,7 +35,7 @@
           <li class="main-description-item main-description-item-dark">
             <h3 class="main-item-title">Настоящиий городок</h3>
             <p class="main-item-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-          <img src="#" alt="Настоящий городок">
+          <img src="./imgs/real-town.jpg" alt="Настоящий городок">
           </li>
           <li class="main-description-item">
             <h3 class="main-item-title">Небольшая площадь</h3>
@@ -49,7 +50,7 @@
             <p class="main-item-text">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="main-description-item main-description-item-dark">
-            <img src="#" alt="Мост дьявола">
+            <img src="./imgs/devil-canyon.jpg" alt="Мост дьявола">
             <h3 class="main-item-title">Там есть мост дьявола</h3>
             <p class="main-item-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
@@ -88,29 +89,35 @@
         <h2 class="footer-mailing-title">Подпишитесь на рассылку</h2>
         <p class="footer-mailing-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="input-wraper">
-          <input type="email" placeholder="Ваш e-mail" class="footer-input">
-          <button class="button button-wide button-blue">Подписаться</button>
+          <input class="footer-input" type="email" placeholder="Ваш e-mail" >
+          <button class="button button-wide button-blue" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
     <footer class="footer">
-      <section class="footer-contacts">
-        <div>
-          <a class="social=network" href="https://vk.com/htmlacademy?from=search">
-            <img src="#" alt="ВКонтакте">
-          </a>
-          <a class="social-network" href="https://t.me/htmlacademy">
-            <img src="#" alt="Телеграмм">
-          </a>
-          <a class="social-network" href="https://www.youtube.com/@HTMLAcademyTV">
-            <img src="#" alt="Ютуб">
-          </a>
-        </div>
-        <a class="call-number" href="78128121212">+7 (812) 812-12-12</a>
-        <a class="footer-logo" href="/">
-          <img src="#" alt="Логотип html academy">
-        </a>
-      </section>
+      <div>
+        <ul>
+          <li>
+            <a class="social-network" href="https://vk.com/htmlacademy?from=search">
+              <img src="./icons/social-vk.svg" alt="ВКонтакте">
+            </a>
+          </li>
+          <li>
+            <a class="social-network" href="https://t.me/htmlacademy">
+              <img src="./icons/social-telegram.svg" alt="Телеграмм">
+            </a>
+          </li>
+          <li>
+            <a class="social-network" href="https://www.youtube.com/@HTMLAcademyTV">
+              <img src="./icons/social-youtube.svg" alt="Ютуб">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <a class="call-number" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      <a class="footer-logo" href="https://htmlacademy.ru/study">
+        <img src="./imgs/logo-htmlacademy.png" alt="Логотип html academy">
+      </a>
     </footer>
   </body>
 

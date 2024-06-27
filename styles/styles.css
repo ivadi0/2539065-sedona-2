@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/ptsans-400.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/ptsans-700.woff2') format('woff2');
+  font-display: swap;
+}
+
+/* Общие стили */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #FFFFFF
+}
+
+.text-30-bold {
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+}
+
+.text-20-bold {
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+}
+
+.text-16-bold-white {
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+color: #FFFFFF;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.text-22-normal {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.text-24-bold-white {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #FFFFFF;
+
+}
+
+.text-18-normal-white {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.text-24-bold {
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-decoration: none;
+}
+
+.text-20-bold-white {
+font-size: 20px;
+font-weight: 700;
+line-height: 36px;
+color: #FFFFFF;
+}
+
+
+/* Pages */
+
+.header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-family: "PT Sans" sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url("../images/background/hero-background.jpg");
+  background-repeat: no-repeat;
+
+}
+
+.form-mailing {
+  background-image: url("../images/background/subscribe-background.jpg");
+  background-repeat: no-repeat;
+}

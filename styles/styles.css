@@ -5,6 +5,7 @@
   src: url('../fonts/ptsans-400.woff2') format('woff2');
   font-display: swap;
 }
+
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
@@ -18,7 +19,7 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -26,29 +27,30 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  background-color: #FFFFFF
+  background-color:#F2F2F2;
+  margin: 0;
 }
 
 .text-30-bold {
-font-size: 30px;
-font-weight: 700;
-line-height: 36px;
-text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
 }
 
 .text-20-bold {
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 .text-16-bold-white {
-font-size: 16px;
-font-weight: 700;
-line-height: 20px;
-color: #FFFFFF;
-text-decoration: none;
-text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .text-22-normal {
@@ -57,6 +59,7 @@ text-transform: uppercase;
   line-height: 26px;
   text-align: center;
 }
+
 .text-24-bold-white {
   font-size: 24px;
   font-weight: 700;
@@ -73,23 +76,85 @@ text-transform: uppercase;
 }
 
 .text-24-bold {
-font-size: 24px;
-font-weight: 700;
-line-height: 28px;
-text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
 }
 
 .text-20-bold-white {
-font-size: 20px;
-font-weight: 700;
-line-height: 36px;
-color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #FFFFFF;
 }
+
+.text-18-normal {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.text-60-bold-white {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.text-16-normal-white {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.text-20-24-bold-white {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.text-18-23-normal-white {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.text-18-bold {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.text-16-normal {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.text-40-normal {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 
 
 /* Pages */
 
-.header {
+
+
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px 0 #00000033;
+}
+
+.header, .main, .footer {
   color: #000000;
   background-color: #FFFFFF;
 }
@@ -114,4 +179,10 @@ color: #FFFFFF;
 .form-mailing {
   background-image: url("../images/background/subscribe-background.jpg");
   background-repeat: no-repeat;
+  min-height: 415px;
+  background-size: cover;
+}
+
+.title-hero-catalog {
+  margin: 0;
 }
